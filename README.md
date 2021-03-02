@@ -1,1 +1,1 @@
-# Eksamensprojekt2021---Victoria-og-Nanna
+# Eksamensprojekt2021---Victoria, Nanna og Rasmus
