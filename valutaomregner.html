@@ -6,11 +6,23 @@
     </head>
 
     <style>
+
       .dropbtn {
-        background-color: #da84d2;
-        color: white;
-        padding-left: 30px;
-        padding-right: 30px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 16px;
+        border: none;
+      }
+
+      .dropbtn2 {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        padding-left: 1px;
+        padding-right: 15px;
         padding-top: 15px;
         padding-bottom: 15px;
         font-size: 16px;
@@ -42,10 +54,14 @@
       
       .dropdown:hover .dropdown-content {display: block;}
       
-      .dropdown:hover .dropbtn {background-color: #af9bdb;}
+      .dropdown:hover .dropbtn {background-color: #dfd7f0;}
+      .dropdown:hover .dropbtn2 {background-color: #dfd7f0;}
+
+      input {
+        margin-right: 15px;
+      }
+
       </style>
-
-
 <body>
 <h1> Valuta Omregner</h1>
 
@@ -58,46 +74,24 @@
   <br>
 
     <div class="dropdown">
-        <button class="dropbtn">Danske Kroner</button>
+        <button class="dropbtn">(DKK) Danske Kroner</button>
         <div class="dropdown-content">
           <a href="euro">Euro</a>
         </div>
       </div>
 
-<br>
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <div class="danskekroner">
-    <fieldset>
-<label> DKK (danske kroner):</label>
-<input type="number" name="DKK" required>
+        <input type="number" name="DKK" required>
 <input type="button" value="Konvertér" onclick="valutaOmregner"(Omregner.DKK.value)>
-        </fieldset>
-      </div>
+
+<div class="dropdown">
+  <button class="dropbtn2">(€) Euro</button>
+  <div class="dropdown-content">
+    <a href="euro">Euro</a>
+  </div>
+</div>
 
 
-<label> Euro:</label>
-<input id="euro"><br><br>
-    </fieldset>
-
-
+<input type="number" name="DKK" required>
 
 </body>
 </html>
