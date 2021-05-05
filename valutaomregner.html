@@ -64,14 +64,36 @@
 
       </style>
 <body>
-<h1> Valuta Omregner</h1>
 
-<h2> Eksamensprojekt - 2021</h2>
+  <h1> Valuta Omregner</h1>
 
-<h3> Lavet af: Victoria, Rasmus og Nanna</h3>
+<form name="Omregner" action="" method="GET">
 
-<form name="Omregner">
+<select name="list1" size="2">
+  <option selected>DKK</option>
+  <option >Euro</option>
+  <option >USD</option>
+</select>
 
+<input type="text" name="inputbox1" value="0">
+
+<input type="button" name="button" value="Omregn" onclick="rasmus(this.form)">
+
+<select name="list2" size="2">
+  <option>DKK</option>
+  <option selected>Euro</option>
+  <option >USD</option>
+</select>
+
+<input type="text" name="inputbox2" value="0">
+</form>
+
+
+
+
+
+
+<!-- 
   <br>
 
     <div class="dropdown">
@@ -92,7 +114,7 @@
 </div>
 
 
-<input type="number" name="DKK" required>
+<input type="number" name="DKK" required> -->
 
 </body>
 </html>
