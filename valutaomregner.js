@@ -15,6 +15,9 @@ switch (valuta1) {
     case 2:
         valuta1Name = data.rates.USD;
         break;
+    case 3:
+        valuta1Name = data.rates.GBP;
+        break;
 }
 
 switch (valuta2) {
@@ -26,6 +29,9 @@ switch (valuta2) {
         break;
     case 2:
         valuta2Name = data.rates.USD;
+        break;
+    case 3:
+            valuta1Name = data.rates.GBP;
         break;
 }
 
