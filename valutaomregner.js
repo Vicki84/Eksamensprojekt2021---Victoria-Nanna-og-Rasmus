@@ -35,6 +35,6 @@ async function omregner(form) {
     }
 
     valutaResult = valutaValue / valuta1Name * valuta2Name;
-    valutaResult = valutaResult.toString().substring(0,5);
+    valutaResult = valutaResult.toString().substring(0,6);
     form.inputbox2.value = valutaResult;
 }
