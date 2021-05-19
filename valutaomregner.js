@@ -12,9 +12,11 @@ switch (valuta1) {
     case 1:
         valuta1Name = data.rates.EUR;
         break;
+
     case 2:
         valuta1Name = data.rates.USD;
         break;
+
     case 3:
         valuta1Name = data.rates.GBP;
         break;
@@ -24,12 +26,15 @@ switch (valuta2) {
     case 0:
         valuta2Name = data.rates.DKK;
         break;
+
     case 1:
         valuta2Name = data.rates.EUR;
         break;
+
     case 2:
         valuta2Name = data.rates.USD;
         break;
+        
     case 3:
             valuta1Name = data.rates.GBP;
         break;
